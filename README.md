@@ -28,4 +28,55 @@ Run the script using:
 ```sh
 python script.py
 ```
-
+## Example
+Modify script.py:
+```Python
+assign_drones("path/to/input.json", "path/to/output.json")
+```
+Then execute:
+```sh
+python script.py
+```
+## Input JSON Format
+```json
+{
+    "drones": {
+        "fleet": [
+            {
+                "id": "drone_1",
+                "speed": 50,
+                "max_payload": 10,
+                "max_distance": 100,
+                "available": true
+            }
+        ]
+    },
+    "orders": [
+        {
+            "id": "order_1",
+            "delivery_x": 5,
+            "delivery_y": 5,
+            "package_weight": 5,
+            "deadline": "2025-03-27T10:00:00"
+        }
+    ]
+}
+```
+## Output JSON Example
+```json
+{
+    "assignments": [
+        {
+            "drone": "drone_1",
+            "orders": ["order_1"],
+            "total_distance": 20
+        }
+    ]
+}
+```
+## Notes
+- Drones are assigned based on speed, payload, and max range.
+- Orders are prioritized by deadline.
+- Ensures that payload and distance constraints are met.
+## Author
+Madhesh Vivekanandan
