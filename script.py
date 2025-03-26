@@ -48,4 +48,4 @@ def assign_drones(input_file, output_file):
         json.dump({"assignments": assignments}, f, indent=4)
 
 # Example usage
-assign_drones(r"C:\Users\m_vivekanandan\OneDrive - INFOTEL CONSEIL\Desktop\madmi\python\sample.json", "output.json")
+assign_drones(r"sample.json", "output.json")
