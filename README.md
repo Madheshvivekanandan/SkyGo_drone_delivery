@@ -19,4 +19,13 @@ Clone the repository and navigate to the project directory:
 git clone https://github.com/your-username/drone-fleet-optimization.git
 cd drone-fleet-optimization
 ```
+## Usage
+Modify the function call in script.py to specify input and output file paths:
+```Python
+assign_drones("path/to/input.json", "path/to/output.json")
+```
+Run the script using:
+```sh
+python script.py
+```
 
