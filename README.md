@@ -16,7 +16,7 @@ This project implements a **Drone Fleet Optimization** system to assign delivery
 ## Installation
 Clone the repository and navigate to the project directory:
 ```sh
-git clone https://github.com/your-username/drone-fleet-optimization.git
+git clone https://github.com/Madheshvivekanandan/SkyGo_drone_delivery.git
 cd drone-fleet-optimization
 ```
 ## Usage
