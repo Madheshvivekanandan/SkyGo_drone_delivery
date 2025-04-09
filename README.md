@@ -16,8 +16,7 @@ This project implements a **Drone Fleet Optimization** system to assign delivery
 ## Installation
 Clone the repository and navigate to the project directory:
 ```sh
-git clone https://github.com/Madheshvivekanandan/SkyGo_drone_delivery.git
-cd SkyGo_drone_delivery
+!git clone https://github.com/Madheshvivekanandan/SkyGo_drone_delivery.git
 ```
 ## Usage
 Modify the function call in script.py to specify input and output file paths:
